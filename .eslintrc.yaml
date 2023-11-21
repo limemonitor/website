@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://json.schemastore.org/eslintrc.json
 env:
   browser: true
   es2017: true
@@ -11,9 +12,14 @@ overrides:
     parser: svelte-eslint-parser
     parserOptions:
       parser: '@typescript-eslint/parser'
+      project:
+        - './tsconfig.json'
 parserOptions:
   ecmaVersion: 2020
   extraFileExtensions:
     - '.svelte'
   sourceType: 'module'
 root: true
+rules:
+  'jsdoc/require-jsdoc': 'off'
+  'no-console': 'off'

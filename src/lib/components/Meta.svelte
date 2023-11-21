@@ -1,11 +1,11 @@
 <script lang="ts">
-  export let websiteTitle = 'Lime Monitor';
-  export let title = 'Lime Monitor';
+  export let websiteTitle = 'LimeMonitor';
+  export let title = 'LimeMonitor';
   export let description =
     'Your all-in-one solution for tracking, analyzing, and optimizing network usage, putting you in control.';
 </script>
 
-<head>
+<svelte:head>
   <title>{`${title} | ${websiteTitle}`}</title>
   <meta name="description" content={description} />
-</head>
+</svelte:head>

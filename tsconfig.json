@@ -11,5 +11,5 @@
     "strict": true
   },
   "extends": "./.svelte-kit/tsconfig.json",
-  "include": ["tailwind.config.ts", "src/**/*"]
+  "include": ["tailwind.config.ts", "**/*"]
 }
