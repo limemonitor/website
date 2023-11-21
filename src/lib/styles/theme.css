@@ -1,0 +1,41 @@
+:root {
+  /** Global (tailwind configured) **/
+  /* Primary */
+  --primary: 0, 225, 12;
+  --primary-hover: 0, 202, 11;
+  --primary-active: 0, 164, 9;
+  --primary-text: 255, 255, 255;
+  --primary-glass: 181, 235, 171;
+  --secondary: 231, 234, 237;
+  --secondary-hover: 217, 221, 225;
+  --secondary-active: 193, 199, 206;
+  --secondary-text: 0, 0, 0;
+  --secondary-glass: var(--text);
+  /* Text */
+  --text: 0, 0, 0;
+  --text-primary: 55, 65, 81;
+  --text-secondary: 75, 85, 107;
+  --text-faint: 135, 141, 156;
+  /* System */
+  --background: 245, 245, 245;
+  --background-secondary: 255, 255, 255;
+  --background-tertiary: 255, 255, 255;
+  --border: 219, 222, 227;
+  --link: 0, 112, 239;
+  /* System (no change) */
+  --success: 34, 197, 94;
+  --success-hover: 31, 180, 87;
+  --success-active: 29, 165, 80;
+  --success-text: 255, 255, 255;
+  --success-glass: var(--success);
+  --warning: 253, 182, 34;
+  --warning-hover: 254, 207, 112;
+  --warning-active: 251, 170, 2;
+  --warning-text: 255, 255, 255;
+  --warning-glass: var(--warning);
+  --danger: 227, 43, 61;
+  --danger-hover: 213, 28, 46;
+  --danger-active: 189, 26, 41;
+  --danger-text: 255, 255, 255;
+  --danger-glass: var(--danger);
+}
