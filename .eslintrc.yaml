@@ -11,6 +11,8 @@ overrides:
     parser: svelte-eslint-parser
     parserOptions:
       parser: '@typescript-eslint/parser'
+      project:
+        - './tsconfig.json'
 parserOptions:
   ecmaVersion: 2020
   extraFileExtensions:

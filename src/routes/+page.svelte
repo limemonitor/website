@@ -15,7 +15,9 @@
         optimizing network usage, putting you in control.
       </p>
       <div class="mt-8">
-        <Button label="Get Started" size="lg" />
+        <a href="/docs/getting-started/installation" class="">
+          <Button label="Get Started" size="lg" />
+        </a>
       </div>
     </div>
     <div class="flex w-1/2 justify-end">
