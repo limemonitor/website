@@ -6,14 +6,11 @@
     "source.organizeImports": "never"
   },
   "editor.trimAutoWhitespace": false,
-  "files.associations": {
-    "*.mdx": "mdx"
-  },
   "files.insertFinalNewline": true,
   "files.eol": "\n",
   "eslint.workingDirectories": [
     {
-      "pattern": "./*"
+      "pattern": "./"
     }
   ],
   "eslint.validate": [
@@ -26,5 +23,8 @@
     "json",
     "yaml",
     "markdown"
-  ]
+  ],
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

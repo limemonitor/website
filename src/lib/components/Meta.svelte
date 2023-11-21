@@ -5,7 +5,7 @@
     'Your all-in-one solution for tracking, analyzing, and optimizing network usage, putting you in control.';
 </script>
 
-<head>
+<svelte:head>
   <title>{`${title} | ${websiteTitle}`}</title>
   <meta name="description" content={description} />
-</head>
+</svelte:head>

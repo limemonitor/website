@@ -10,7 +10,7 @@
     },
     {
       title: 'Docs',
-      href: '/docs',
+      href: '/docs/installation',
     },
     {
       title: 'Changelog',
@@ -19,7 +19,7 @@
   ];
 </script>
 
-<div class="invisible relative h-20 w-screen"></div>
+<div class="relative h-20 w-screen"></div>
 
 <div
   class="fixed left-0 top-0 h-20 w-screen bg-white shadow-[0_5px_15px_rgba(0,0,0,0.05)]"
